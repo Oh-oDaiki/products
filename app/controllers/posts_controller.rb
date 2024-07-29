@@ -25,7 +25,7 @@ class PostsController < ApplicationController
           flash.now[:danger] = "すべての項目に入力してください"
           render :new
         end
-      end
+    end
   
     def show
     end
